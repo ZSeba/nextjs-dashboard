@@ -31,6 +31,7 @@ export const { auth, signIn, signOut } = NextAuth({
             return { email: user.email };
           }
         }
+        return null;
       },
     }),
   ],
